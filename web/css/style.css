@@ -20,6 +20,23 @@ p {
     color: #fff;
     border-color: #fff;
 }
+.subtitulo {
+    font-weight: bold;
+    font-size:24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+.subtitulo:after {
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto; 
+}
 .header {
     position: fixed;
     top: 0;
@@ -92,4 +109,15 @@ p {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
+}
+.produtos {
+    padding: 60px 0;
+}
+.produtos_lista li{
+    background: #fec63e;
+}
+.produtos_icone {
+    background: #000;
+    padding: 20px;
+    text-align: center;
 }
