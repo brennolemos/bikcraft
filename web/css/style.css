@@ -121,6 +121,7 @@ img {
 }
 .produtos {
     padding: 60px 0;
+    margin: 0 auto;
 }
 .produtos_lista li{
     background: #fec63e;
@@ -145,7 +146,7 @@ img {
 }
 .produtos_icone {
     background: #000;
-    padding: 20px;
+    padding: 40px;
 }
 .produtos_lista li p {
     padding: 10px 20px 20px 20px;
@@ -226,4 +227,53 @@ img {
 }
 .quebra .quote-externo {
     max-width: 400px;
+}
+.footer {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+.footer h3 {
+    font-size:18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+}
+.footer_historia {
+    padding-right: 40px;
+}
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    
+}
+.footer_rede ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer_rede ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+}
+.footer_rede ul li a:hover {
+    border-color: white;
+}
+.copy {
+    width: 100%;
+    background: #fec63e;
+    color: black;
+    padding: 20px 0;
 }
