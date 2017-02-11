@@ -1,144 +1,20 @@
-body {
-    font-family: 'Arial', 'Helvetica', sans-serif;
+.interna_sobre {
+    background: url("../img/bg-sobre.jpg") no-repeat center;
 }
-p {
-    font-family: 'Georgia', 'Times New Roman', serif;
-    font-size: 14px;
-    line-height: 20px;
+.missao_sobre {
+    padding-top: 60px;
 }
-img {
-    display: block;
-}
-.btn {
-    border: 3px solid #fec63e;
-    padding: 10px 30px;
-    color: #fec63e;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: .1em;
-}
-.btn:hover {
-    color: #fff;
-    border-color: #fff;
-}
-.btn.btn-preto:hover {
-    color: #000;
-    border-color: #000;
-}
-.subtitulo {
-    font-weight: bold;
-    font-size:24px;
-    line-height: 30px;
-    letter-spacing: .1em;
-    color: #000;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 40px;
-}
-.subtitulo:after {
-    content:"";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #000;
-    margin: 8px auto; 
-}
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: #fec63e;
-    padding: 15px 0;
-    z-index: 10;
-}
-
-.header_menu {
-    text-align: right;
-}
-
-.header_menu ul li {
-    display: inline-block;
-    margin-left: 25px;
-    margin-top: 10px;
-}
-
-.header_menu ul li a {
-    color: #000;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.header_menu ul li a:hover {
-    color: #fff;
-}
-.intro {
-    margin-top: 92px;
-    width: 100%;
-    height: 160px;
-    background: url("../img/bg-sobre.jpg");
-    text-align: center;
-    color: #fff;
-    padding: 40px 0;
-}
-.intro h2 {
-    color: #fff;
-    margin-bottom: 0;
-}
-.intro h2:after {
-    background: #fff;
-}
-
-.footer {
-    width: 100%;
-    background: #000;
-    color: #fff;
-    padding: 20px;
-}
-.footer h3 {
-    font-size:18px;
+.missao_sobre p {
+    font-size: 18px;
     line-height: 25px;
-    color: #fec63e;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-weight: bold;
+    margin-bottom: 1em;
+    padding-right: 60px;
 }
-.footer h3:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #fec63e;
-    margin: 6px 0 12px 0;
+.missao_sobre ul li {
+    font-family: 'Georgia', "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 30px;
 }
-.footer_historia {
-    padding-right: 40px;
-}
-.footer_contato ul li {
-    font-size: 14px;
-    line-height: 20px;
-    font-family: 'Georgia', 'Times New Roman', serif;
-    
-}
-.footer_rede ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-.footer_rede ul li a {
-    border: 3px solid #fec63e;
-    display: block;
-    padding: 10px;
-}
-.footer_rede ul li a:hover {
-    border-color: white;
-}
-.copy {
-    width: 100%;
-    background: #fec63e;
-    color: black;
-    padding: 20px 0;
+.foto-equipe {
+    padding-top: 20px;
 }
