@@ -19,6 +19,7 @@ img {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: .1em;
+    transition: all .5s ease;
 }
 .btn:hover {
     color: #fff;
@@ -112,6 +113,7 @@ img {
     letter-spacing: .1em;
     font-size: 14px;
     line-height: 20px;
+    transition: all .3s ease;
 }
 .header_menu ul li a.menu_ativo {
     color: #fff;
@@ -214,7 +216,7 @@ img {
 .portfolio .subtitulo:after {
     background: #fec63e;
 }
-.portfolio_lista li:last-child {
+.portfolio_lista div:last-of-type {
     margin-top: 20px;
 }
 .portfolio .call p {
@@ -312,6 +314,7 @@ img {
     border: 3px solid #fec63e;
     display: block;
     padding: 10px;
+    transition: all .5s ease;
 }
 .footer_rede ul li a:hover {
     border-color: white;
@@ -321,4 +324,46 @@ img {
     background: #fec63e;
     color: black;
     padding: 20px 0;
+}
+.introducao h1, .introducao blockquote, .introducao .btn {
+    opacity: 0;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
