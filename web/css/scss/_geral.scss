@@ -5,9 +5,7 @@ body {
 }
 
 p {
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 14px;
-	line-height: 20px;
+	@include tipo-2(14);
 }
 
 img {
@@ -353,7 +351,7 @@ img {
 
 .footer {
 	width: 100%;
-	background: $black$black;
+	background: $black;
 	color: $white;
 	padding: 20px 0;
 }
@@ -381,9 +379,7 @@ img {
 }
 
 .footer_contato ul li {
-	font-size: 14px;
-	line-height: 20px;
-	font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(14);
 }
 
 .footer_redes ul li {

@@ -95,9 +95,7 @@
 .form label{
 	display: block;
 	color: $white;
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 18px;
-	line-height: 25px;
+	@include tipo-2(18);
 	margin-bottom: 4px;
 }
 
@@ -110,8 +108,7 @@
 	padding: 7px 10px;
 	margin-bottom: 10px;
 	outline: none;
-	font-size: 14px;
-	font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(14);
 }
 
 .form textarea {
@@ -124,8 +121,7 @@
 	padding: 7px 10px;
 	margin-bottom: 20px;
 	outline: none;
-	font-size: 14px;
-	font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(14);
 }
 
 .form button {
@@ -147,9 +143,7 @@
 
 .orcamento_dados span {
 	display: block;
-	font-size: 18px;
-	line-height: 30px;
-	font-family: Georgia, "Times New Roman", serif;
+	@include tipo-2(18);
 }
 
 .orcamento_dados span:nth-of-type(2) {
@@ -161,8 +155,7 @@
 }
 
 .orcamento_dados ul li {
-	font-family: Georgia, "Times New Roman", serif;
-	font-size: 14px;
+	@include tipo-2(14);
 	padding: 10px 15px;
 }
 
