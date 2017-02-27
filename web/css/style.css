@@ -638,8 +638,8 @@ img {
 }
 
 .btn:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #FFF;
+  border-color: #FFF;
 }
 
 .btn.btn-preto:hover {
@@ -748,7 +748,7 @@ img {
   max-width: 320px;
   margin: 0 auto;
   margin-bottom: 40px;
-  color: white;
+  color: #FFF;
 }
 
 .quote-externo p {
@@ -760,7 +760,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: #FFF;
   margin: 14px auto 10px auto;
 }
 
@@ -777,7 +777,7 @@ img {
   margin-top: 92px;
   height: 160px;
   text-align: center;
-  color: #fff;
+  color: #FFF;
   padding-top: 30px;
 }
 
@@ -792,7 +792,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: #FFF;
   margin: 6px auto 10px auto;
 }
 
@@ -867,7 +867,7 @@ img {
 }
 
 .portfolio .call p {
-  color: #fff;
+  color: #FFF;
 }
 
 /*Qualidade*/
@@ -937,8 +937,8 @@ img {
 /*Footer*/
 .footer {
   width: 100%;
-  background: #000;
-  color: #fff;
+  background: #000 #000;
+  color: #FFF;
   padding: 20px 0;
 }
 
@@ -983,7 +983,7 @@ img {
 }
 
 .footer_redes ul li a:hover {
-  border-color: #fff;
+  border-color: #FFF;
 }
 
 .copy {
@@ -1045,7 +1045,7 @@ img {
 }
 
 .produto_item h2 {
-  color: #fff;
+  color: #FFF;
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -1061,7 +1061,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: #FFF;
   margin: 6px auto 8px auto;
 }
 
@@ -1079,7 +1079,7 @@ img {
 }
 
 .produto_info p {
-  color: #fff;
+  color: #FFF;
   font-size: 18px;
   line-height: 25px;
   height: 180px;
@@ -1129,7 +1129,7 @@ img {
 
 .form label {
   display: block;
-  color: #fff;
+  color: #FFF;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 25px;
@@ -1141,7 +1141,7 @@ img {
   width: 100%;
   border: 4px solid #fec63e;
   background: none;
-  color: #fff;
+  color: #FFF #FFF;
   padding: 7px 10px;
   margin-bottom: 10px;
   outline: none;
@@ -1155,7 +1155,7 @@ img {
   height: 120px;
   border: 4px solid #fec63e;
   background: none;
-  color: #fff;
+  color: #FFF;
   padding: 7px 10px;
   margin-bottom: 20px;
   outline: none;
@@ -1169,7 +1169,7 @@ img {
 }
 
 .orcamento_dados {
-  color: #fff;
+  color: #FFF;
 }
 
 .orcamento_dados h3 {
@@ -1373,7 +1373,7 @@ img {
 }
 
 .orcamento_dados {
-  color: #fff;
+  color: #FFF;
 }
 
 .contato_dados h3 {
@@ -1481,10 +1481,10 @@ img {
     float: left;
   }
   .header_menu ul li a:hover {
-    border-color: #fff;
+    border-color: #FFF;
   }
   .header_menu ul li a.menu_ativo {
-    border-color: #fff;
+    border-color: #FFF;
   }
   /*Introducao*/
   .introducao h1 {
